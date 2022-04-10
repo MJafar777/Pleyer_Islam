@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background-image: url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.box__Left {
+  width: 30%;
+  height: auto;
+  overflow-y: auto;
+  background-image: url(colorful-abstract-background-pastel-gradient-texture.jpg);
+}
+.btnMenu {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  text-align: center;
+  font-weight: 600;
+  top: 1rem;
+  color: white;
+  left: 1rem;
+  position: fixed;
+}
+.btnMenu:active {
+  outline: 0.5rem solid black;
+  transition: all 0.2s;
+  color: bisque;
+}
+.name {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 4rem;
+  color: bisque;
+}
+.Suralar {
+  width: 90%;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0.05rem 0.2rem 1rem white;
+  height: 4rem;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  width: 90%;
+  color: black;
+  font-style: italic;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 1.2rem auto;
+}
+.yozuvKurinish {
+  background-color: rgba(240, 248, 255, 0);
+  margin: 2rem;
+  padding: 1.4rem;
+}
+.box__Right {
+  width: 70%;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+.name2 {
+  width: 80%;
+  color: black;
+  margin: 2rem auto;
+  font-size: 4rem;
+  color: coral;
+  border-radius: 3rem;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 0.05rem 0.2rem 2rem white;
+}
+.manolri {
+  width: 90%;
+  font-size: 2rem;
+  margin: 1rem auto;
+  color: black;
+  margin-bottom: 3rem;
+}
+.tafsiv {
+  width: 90%;
+  font-size: 2rem;
+  margin: 1rem auto;
+  color: black;
+}
+.manolri2 {
+  width: 95%;
+  font-size: 1.5rem;
+  margin: 0.7rem auto;
+  color: #555;
+  margin-bottom: 1.3rem;
+}
+.til {
+  font-size: 3rem;
+  text-align: center;
+  color: coral;
+}
+
+.audio {
+  display: block;
+  margin: 28px auto;
+  width: 90%;
+  height: 35px;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid black;
+}
+.search {
+  margin-top: 2.3rem;
+  width: 88%;
+  margin-left: 1.5rem;
+  outline: none;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.6rem;
+}
